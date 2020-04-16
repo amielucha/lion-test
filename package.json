@@ -1,0 +1,20 @@
+{
+  "name": "yv-chb",
+  "version": "0.0.0",
+  "description": "Webcomponent yv-chb following open-wc recommendations",
+  "author": "yv-chb",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index ./demo/index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "@lion/checkbox-group": "^0.8.7",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.23.0"
+  }
+}
